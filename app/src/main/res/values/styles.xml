@@ -10,6 +10,13 @@
     <style name="homePageText">
         <item name="android:textSize">32sp</item>
     </style>
+    <style name="topBar">
+        <item name="android:textColor">@color/topBarText</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="taskNameText" parent="Base.Widget.MaterialComponents.TextInputEditText">
+        <item name="android:textSize">20sp</item>
+    </style>
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
