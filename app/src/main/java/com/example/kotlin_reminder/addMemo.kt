@@ -11,9 +11,16 @@ class AddMemo : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add_memo)
 
-        MemoValidateButton.setOnClickListener { view ->
-            val AddMemo2MainActivity = Intent(this, MainActivity::class.java)
-            startActivity(AddMemo2MainActivity)
+        MemoValidateButton.setOnClickListener { _ ->
+            val addMemo2MainActivity = Intent(this, MainActivity::class.java)
+            startActivity(addMemo2MainActivity)
         }
+
+        readFile("yes")
+    }
+
+    private fun readFile(name: String) {
+        print("DUNNO WTF LE SAMOIS ibzefibazepifpiaezrbfgpiuarebgfpibaergpibreapbigreipgbegbibipregabipgaerbiphgareibpgareibp")
+        print(applicationContext.filesDir)
     }
 }
